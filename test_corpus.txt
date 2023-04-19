@@ -1,0 +1,29 @@
+Counter-Strike 2 is official, and for some, it’s coming today. 
+In a post on Twitter, Valve writes that a limited test for CS2 is starting today, 
+which it describes as an “overhaul to every system, every piece of content, 
+and every part of the C-S experience.” A website for the game describes it as 
+“the largest technical leap forward in Counter-Strike’s history” and promises 
+years of updates and new features.
+
+The full game is expected to release in summer 2023, according to the game’s 
+FAQ. It will be free to play.
+
+CS2 is based on Valve’s Source 2 engine and includes updates to some of the 
+game’s core mechanics, including improved smoke grenades and “sub-tick updates” 
+that Valve says will let “servers know the exact instant that motion starts, 
+a shot is fired, or a ‘nade is thrown.” (A video also appears to show someone 
+clearing grenade smoke with another grenade.) The game will also have revamped
+ maps, better visuals, UI enhancements, reworked audio, and more.
+
+ In a video titled “Leveling Up The World,” Valve says that maps will be 
+ getting a new look in CS2 but that experienced players’ skills should carry 
+ over. The company also talks about the three “tiers” of maps in the games. 
+ There are “touchstone” levels, such as Dust II, that have minor visual tweaks
+ but that are essentially unchanged and that should let people get a feel for 
+ the new gameplay in a familiar setting. There are also maps that have been 
+ upgraded or overhauled, which have either had Source 2 features added or 
+ have been entirely rebuilt.
+
+There’s also a dedicated bind to remove your weapon’s silencer, according to 
+a tweet.
+

@@ -7,7 +7,6 @@ def calculate_idf(docs):
     idf_dct = {}
     for i in range(len(docs)):
         docs[i] = word_tokenize(docs[i])
-        docs[i] = [w for w in docs[i] if w not in closed_class_stop_words and w not in punctuations and not w.replace('.', '', 1).isdigit() and w not in number]
         for w in set(docs[i]):
             if w in idf_dct: idf_dct[w] += 1
             else: idf_dct[w] = 1

@@ -21,7 +21,8 @@ for youtuber in youtuberList:
             corpus = corpus + formatter.format_transcript(transcriptList, languages=['en', 'en-US']).replace("\n", " ")
         except Exception as e:
             continue
-         
+    
+    #cleaning goes here
     jsonDict[youtuber] = {"name": youtuber, "corpus": corpus}
 
 json.dump(jsonDict, f, indent=3)

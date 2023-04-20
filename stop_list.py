@@ -1,4 +1,3 @@
-
 closed_class_stop_words = ['a','the','an','and','or','but','about','above','after','along','amid','among',\
                            'as','at','by','for','from','in','into','like','minus','near','of','off','on',\
                            'onto','out','over','past','per','plus','since','till','to','under','until','up',\

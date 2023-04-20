@@ -1,3 +1,2 @@
-# NLPprj
-Deniz Qian
-Shenyi Huang
+# YOUTUBER CLUSTER CATEGORIZATION
+Bradley Huang, Shenyi Huang, Deniz Qian, Daniel Ni

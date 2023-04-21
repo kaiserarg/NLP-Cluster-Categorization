@@ -51,7 +51,7 @@ def main():
     # f = open("three-test-corpus.json", "r")
     # queries_raw = json.load(f)
     queries = []
-    for youtuber in youtuberList:
+    for youtuber in [youtuber[0] for youtuber in youtuberList]:
         queries.append(data[youtuber]["corpus"].split(" "))
     # print(queries[0])
 

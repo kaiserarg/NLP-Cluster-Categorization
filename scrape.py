@@ -9,10 +9,6 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from youtuberlist import youtuberList
 
-nltk.download('punkt')
-nltk.download('wordnet')
-nltk.download('stopwords')
-
 def clean_corpus(corpus):
     tokens = word_tokenize(corpus)
     tokens = [word.lower() for word in tokens]
@@ -33,13 +29,12 @@ formatter = TextFormatter()
 
 youtubeURL = "https://www.youtube.com/@"
 
- 
-f = open("three-test-corpus.json", "a")
+f = open("cleanedData.json", "a")
 
 jsonDict = {}
 
 for youtuber in youtuberList:
-    videos = scrapetube.get_channel(None, youtubeURL + youtuber, 2, 1, "popular")
+    videos = scrapetube.get_channel(None, youtuber[1], 10, 1, "popular")
     corpus = ""
     for video in videos:
         try:
@@ -50,7 +45,7 @@ for youtuber in youtuberList:
     
     #cleaning goes here
     corpus = clean_corpus(corpus)
-    jsonDict[youtuber] = {"name": youtuber, "corpus": corpus}
+    jsonDict[youtuber[0]] = {"name": youtuber[0], "corpus": corpus}
 
 json.dump(jsonDict, f, indent=3)
 f.close()

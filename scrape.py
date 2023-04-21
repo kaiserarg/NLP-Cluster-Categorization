@@ -7,6 +7,7 @@ import string
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
+from youtuberlist import youtuberList
 
 nltk.download('punkt')
 nltk.download('wordnet')
@@ -31,7 +32,7 @@ def clean_corpus(corpus):
 formatter = TextFormatter()
 
 youtubeURL = "https://www.youtube.com/@"
-youtuberList = ["PewDiePie", "MrBeast", "WIRED"]
+
  
 f = open("three-test-corpus.json", "a")
 

@@ -13,6 +13,7 @@ def clean_corpus(corpus):
     tokens = word_tokenize(corpus)
     tokens = [word.lower() for word in tokens]
    
+    tokens = [word for word in tokens if not any(char in ('(', ')') for char in word)]
     tokens = [word for word in tokens if word not in string.punctuation]
     tokens = [word for word in tokens if not any(char in string.punctuation for char in word)]
     tokens = [word for word in tokens if word not in ('”', '“', '’', '‘')]

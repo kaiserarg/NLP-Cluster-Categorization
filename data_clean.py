@@ -27,13 +27,13 @@ for youtuber in data:
     tokens = [word for word in tokens if word not in string.punctuation]
 
     #remove common exclamations
-    tokens = [re.sub(r'(oh.*)|(hah.*)|(ah.*)|(ye.*)|(uh.*)|(hm.*)|(sh.*)|(um.*)', '', word) for word in tokens] 
+    tokens = [re.sub(r'(oh.*)|(hah.*)|(ah.*)|(yee.*)|(uh.*)|(hm.*)|(shh.*)|(umm.*)', '', word) for word in tokens] 
 
     #remove words like 's --> for some reason the tokenizer splits up words like dog's into dog and 's 
     tokens = [word for word in tokens if not any(char in (string.punctuation) for char in word)]
 
     tokens = [word for word in tokens if word not in ('”', '“', '’', '‘', 'yes', 'no', 'ugh', 'really', 'eh', 'gon', 'na', 'wow', 'wan', 
-                                                      'na', 'hey', 'phew', 'u', 'le', 'ca', 'la', 'bl', 'hum')]
+                                                      'na', 'hey', 'phew', 'u', 'le', 'ca', 'la', 'bl', 'hum', 'um', 'ye', 'sh')]
     
     stop_words = set(stopwords.words('english'))
     tokens = [word for word in tokens if word.lower() not in stop_words]

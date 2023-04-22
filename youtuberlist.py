@@ -1,15 +1,16 @@
 import csv
 
-def read_csv_data(csv_file_name):
-    list_of_tuples = []
-    
-    with open(csv_file_name, "r") as csv_file:
-        csv_reader = csv.reader(csv_file, delimiter=',')
+def read_csv_data(file):
+    youtube_list = []
+    csv_file = csv.reader(file, delimiter=',')
         
-        for tuple in csv_reader:
-            list_of_tuples.append((tuple[0].strip(), tuple[1]))
+    for tuple in csv_file:
+        youtube_list.append((tuple[0].strip(), tuple[1]))
             
-    return list_of_tuples
+    return youtube_list
 
+with open("youtuber_list.csv", "r") as file:
+    youtuberList = read_csv_data(file)
 
-youtuberList = read_csv_data("youtuber_list.csv")
+#for x in youtuberList:
+#    print(x)

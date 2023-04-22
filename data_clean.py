@@ -7,8 +7,7 @@ from nltk.corpus import stopwords
 from nltk import re
 import json
 
-
-f= open("cleanedData.json", "r")
+f= open("rawData.json", "r")
 
 data = json.load(f)
 cleaned_data = {}
@@ -52,6 +51,6 @@ for youtuber in data:
 
     cleaned_data[youtuber] = {"corpus": string_of_tokens}
 
-with open("new_clean_data.json", "w") as output:
-    json.dump(cleaned_data, output, indent=1)
+with open("cleaned_rawData.json", "w") as output:
+    json.dump(cleaned_data, output, indent=2)
     

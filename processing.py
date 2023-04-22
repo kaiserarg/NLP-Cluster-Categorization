@@ -45,55 +45,49 @@ def calculate_cossim(dct1, dct2):
     except ZeroDivisionError:
         return 0
     
-def main():
-    with open("cleanedData.json", 'r') as file:
-        data = json.load(file)
-    # f = open("three-test-corpus.json", "r")
-    # queries_raw = json.load(f)
-    queries = []
-    for youtuber in [youtuber[0] for youtuber in youtuberList]:
-        queries.append(data[youtuber]["corpus"].split(" "))
-    # print(queries[0])
 
-    queries_idf = calculate_idf(queries)
-    queries_tfidf = calculate_tfidf(queries, queries_idf)
+with open("cleanedData.json", 'r') as file:
+    data = json.load(file)
+# f = open("three-test-corpus.json", "r")
+# queries_raw = json.load(f)
+queries = []
+for youtuber in [youtuber[0] for youtuber in youtuberList]:
+    queries.append(data[youtuber]["corpus"].split(" "))
+# print(queries[0])
+
+queries_idf = calculate_idf(queries)
+queries_tfidf = calculate_tfidf(queries, queries_idf)
 
 
+# cossim_lst = []
+cossim_matrix = [[0] * len(youtuberList) for i in range(len(youtuberList))]
+for i in range(len(queries_tfidf)):
     # cossim_lst = []
-    cossim_matrix = [[0] * len(youtuberList) for i in range(len(youtuberList))]
-    for i in range(len(queries_tfidf)):
-        # cossim_lst = []
-        for j in range(i+1, len(queries_tfidf)):
-            text_vector = {}
-            for w in queries_tfidf[i]:
-                if w in queries_tfidf[j]:
-                    text_vector[w] = queries_tfidf[j][w]
-                else: text_vector[w] = 0
-            # cossim_lst.append([i+1, j+1, calculate_cossim(queries_tfidf[i], text_vector)])
-            cossim_matrix[i][j] = calculate_cossim(queries_tfidf[i], text_vector)
-            cossim_matrix[j][i] = cossim_matrix[i][j]
-
-        
-        # cossim_lst.sort(key = lambda x:x[2], reverse=True)
-
-
-    # for i in range(len(youtuberList)):
-    #     cossim_matrix[i][i] = 1
-
-
-
+    for j in range(i+1, len(queries_tfidf)):
+        text_vector = {}
+        for w in queries_tfidf[i]:
+            if w in queries_tfidf[j]:
+                text_vector[w] = queries_tfidf[j][w]
+            else: text_vector[w] = 0
+        # cossim_lst.append([i+1, j+1, calculate_cossim(queries_tfidf[i], text_vector)])
+        cossim_matrix[i][j] = calculate_cossim(queries_tfidf[i], text_vector)
+        cossim_matrix[j][i] = cossim_matrix[i][j]
 
 
     
-
-    
-    
-    
+    # cossim_lst.sort(key = lambda x:x[2], reverse=True)
 
 
+# for i in range(len(youtuberList)):
+#     cossim_matrix[i][i] = 1
 
 
-            
 
-if __name__ == "__main__":
-    main()
+
+
+
+
+
+
+
+

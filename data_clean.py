@@ -9,12 +9,18 @@ from nltk import re
 def clean_corpus(corpus):
     tokens = word_tokenize(corpus)
     tokens = [word.lower() for word in tokens]
+<<<<<<< HEAD
     
     #remove words in corpus with parenthesis around them, in the youtube transcript this would filter out (laughs) or (music playing)
     tokens = [re.sub(r'\([^)]*\)', '', word) for word in tokens]
     #remove punctuation
     tokens = [word for word in tokens if word not in string.punctuation]
     #remove words like 's --> for some reason the tokenizer splits up words like dog's into dog and 's 
+=======
+   
+    tokens = [re.sub(r'(\([^)]*\))|(\\u266a)', '', word) for word in tokens] #remove things (laughter) and ♪
+    tokens = [word for word in tokens if word not in string.punctuation] 
+>>>>>>> 1418ab1697fda87398487539fcba736246acf7c5
     tokens = [word for word in tokens if not any(char in string.punctuation for char in word)]
     tokens = [word for word in tokens if word not in ('”', '“', '’', '‘')]
     stop_words = set(stopwords.words('english'))

@@ -14,7 +14,6 @@ youtuberList = [
     ("LazarBeam", "https://www.youtube.com/channel/UCw1SQ6QRRtfAhrN_cjkrOgA"),
     ("Ninja", "https://www.youtube.com/user/NinjasHyper"),
     ("Zoella", "https://www.youtube.com/user/zoella280390"),
-    ("T-Series", "https://www.youtube.com/user/tseries"),
     ("Liza Koshy", "https://www.youtube.com/channel/UCxSz6JVYmzVhtkraHWZC7HQ"),
     ("Collins Key", "https://www.youtube.com/user/CollinsKey"),
     ("Rclbeauty101", "https://www.youtube.com/user/Rclbeauty101"),

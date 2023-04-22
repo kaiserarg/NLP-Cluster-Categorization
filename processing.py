@@ -46,7 +46,7 @@ def calculate_cossim(dct1, dct2):
         return 0
     
 def main():
-    with open("three-test-corpus.json", 'r') as file:
+    with open("cleanedData.json", 'r') as file:
         data = json.load(file)
     # f = open("three-test-corpus.json", "r")
     # queries_raw = json.load(f)

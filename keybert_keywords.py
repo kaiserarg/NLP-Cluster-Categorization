@@ -1,5 +1,15 @@
 from keybert import KeyBERT
+from nltk.stem import WordNetLemmatizer
+from nltk.tokenize import word_tokenize
 import json
+
+def clean(corpus):
+    tokens = word_tokenize(corpus)
+    lemmatizer = WordNetLemmatizer()
+    tokens = [word.lower() for word in tokens]
+    tokens = [lemmatizer.lemmatize(word) for word in tokens]
+    return " ".join(tokens)
+
 
 kw_model = KeyBERT()
 
@@ -16,7 +26,8 @@ keywords = {
 for youtuber in data:
     if(data[youtuber]["corpus"] == ""):
             continue
-    keyword = kw_model.extract_keywords(data[youtuber]["corpus"], top_n=10)
+    corpus = clean(data[youtuber]["corpus"])
+    keyword = kw_model.extract_keywords(corpus, top_n=10)
     keywords[data[youtuber]["name"]] = keyword
     count = count + 1
     print(count)

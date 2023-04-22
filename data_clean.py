@@ -32,8 +32,11 @@ for youtuber in data:
     #remove words like 's --> for some reason the tokenizer splits up words like dog's into dog and 's 
     tokens = [word for word in tokens if not any(char in (string.punctuation) for char in word)]
 
-    tokens = [word for word in tokens if word not in ('”', '“', '’', '‘', 'yes', 'no', 'ugh', 'really', 'eh', 'gon', 'na', 'wow', 'wan', 
-                                                      'na', 'hey', 'phew', 'u', 'le', 'ca', 'la', 'bl', 'hum', 'um', 'ye', 'sh')]
+    tokens = [word for word in tokens if word not in ('”', '“', '’', '‘', 'yes', 'no', 'ugh', 'really', 'eh', 'gon', 'na', 'wow', 'wan', 'yep'
+                                                      'na', 'hey', 'phew', 'u', 'le', 'ca', 'bl', 'hum', 'um', 'ye', 'sh', 'yay', 'yo'
+                                                      'ok', 'okay', 'hi', 'hello')]
+
+
     
     stop_words = set(stopwords.words('english'))
     tokens = [word for word in tokens if word.lower() not in stop_words]

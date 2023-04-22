@@ -44,6 +44,8 @@ for youtuber in data:
     string_of_tokens = ' '.join(tokens)
     #remove all unicode characters like "\u00e9", "\u2026", "\u00fc"
     string_of_tokens = ''.join(char for char in string_of_tokens if ord(char) < 128)
+    #remove numbers
+    string_of_tokens = ''.join(char for char in string_of_tokens if not char.isdigit())
 
     cleaned_data[youtuber] = {"corpus": string_of_tokens}
 

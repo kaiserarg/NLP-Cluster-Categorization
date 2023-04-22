@@ -59,7 +59,8 @@ def main():
     queries_tfidf = calculate_tfidf(queries, queries_idf)
 
 
-    cossim_lst = []
+    # cossim_lst = []
+    cossim_matrix = [[0] * len(youtuberList) for i in range(len(youtuberList))]
     for i in range(len(queries_tfidf)):
         # cossim_lst = []
         for j in range(i+1, len(queries_tfidf)):
@@ -68,12 +69,21 @@ def main():
                 if w in queries_tfidf[j]:
                     text_vector[w] = queries_tfidf[j][w]
                 else: text_vector[w] = 0
-            cossim_lst.append([i, j, calculate_cossim(queries_tfidf[i], text_vector)])
+            # cossim_lst.append([i+1, j+1, calculate_cossim(queries_tfidf[i], text_vector)])
+            cossim_matrix[i][j] = calculate_cossim(queries_tfidf[i], text_vector)
+            cossim_matrix[j][i] = cossim_matrix[i][j]
+
+        
         # cossim_lst.sort(key = lambda x:x[2], reverse=True)
 
-        # for i in range(1):
-    for i in range(len(cossim_lst)):
-        print(cossim_lst[i])
+
+    # for i in range(len(youtuberList)):
+    #     cossim_matrix[i][i] = 1
+
+
+
+
+
     
 
     

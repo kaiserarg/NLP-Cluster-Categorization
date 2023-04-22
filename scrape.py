@@ -8,12 +8,13 @@ formatter = TextFormatter()
 
 youtubeURL = "https://www.youtube.com/@"
 
-f = open("rawData.json", "a")
+f = open("rawData3.json", "a")
+remaining = len(youtuberList)-222
 
 jsonDict = {}
 
-for youtuber in youtuberList:
-    videos = scrapetube.get_channel(None, youtuber[1], 10, 1, "popular")
+for i in range(222, len(youtuberList)):
+    videos = scrapetube.get_channel(None, youtuberList[i][1], 10, 1, "popular")
     corpus = ""
     for video in videos:
         try:
@@ -21,7 +22,12 @@ for youtuber in youtuberList:
             corpus = corpus + formatter.format_transcript(transcriptList, languages=['en', 'en-US']).replace("\n", " ")
         except Exception as e:
             continue
-    jsonDict[youtuber[0]] = {"name": youtuber[0], "corpus": corpus}
+    
+    remaining = remaining - 1
+    print(remaining)
+    jsonDict[youtuberList[i][0]] = {"name": youtuberList[i][0], "corpus": corpus}
+    f = open("rawData3.json", "w")
+    json.dump(jsonDict, f, indent=3)
 
 json.dump(jsonDict, f, indent=3)
 f.close()

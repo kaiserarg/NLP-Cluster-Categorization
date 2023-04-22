@@ -2,18 +2,18 @@ from youtube_transcript_api import YouTubeTranscriptApi as transcriptAPI
 from youtube_transcript_api.formatters import TextFormatter
 import scrapetube
 import json
-from youtuberlist import youtuberList
+from raw_yt_list.youtuberlist import youtuberList
 
 formatter = TextFormatter()
 
 youtubeURL = "https://www.youtube.com/@"
 
-f = open("rawData3.json", "a")
-remaining = len(youtuberList)-222
+f = open("rawData.json", "a")
+remaining = len(youtuberList)
 
 jsonDict = {}
 
-for i in range(222, len(youtuberList)):
+for i in range(len(youtuberList)):
     videos = scrapetube.get_channel(None, youtuberList[i][1], 10, 1, "popular")
     corpus = ""
     for video in videos:

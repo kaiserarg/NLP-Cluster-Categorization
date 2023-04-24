@@ -34,8 +34,6 @@ for youtuber in data:
     tokens = [word for word in tokens if word not in ('”', '“', '’', '‘', 'yes', 'no', 'ugh', 'really', 'eh', 'gon', 'na', 'wow', 'wan', 'yep'
                                                       'na', 'hey', 'phew', 'u', 'le', 'ca', 'bl', 'hum', 'um', 'ye', 'sh', 'yay', 'yo'
                                                       'ok', 'okay', 'hi', 'hello')]
-
-
     
     stop_words = set(stopwords.words('english'))
     tokens = [word for word in tokens if word.lower() not in stop_words]

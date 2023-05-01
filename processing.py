@@ -2,7 +2,7 @@ import math, nltk
 import numpy as np
 from nltk import word_tokenize
 from nltk.corpus import wordnet
-from youtuberlist import youtuberList
+from raw_yt_list.youtuberlist import youtuberList
 import json 
 
 # return a dictionary of idf of each word in the corpus

@@ -26,8 +26,12 @@ keywords = {
 for youtuber in data:
     if(data[youtuber]["corpus"] == ""):
             continue
+<<<<<<< Updated upstream
     corpus = clean(data[youtuber]["corpus"])
     keyword = kw_model.extract_keywords(corpus, top_n=10)
+=======
+    keyword = kw_model.extract_keywords(data[youtuber]["corpus"], top_n=25)
+>>>>>>> Stashed changes
     keywords[data[youtuber]["name"]] = keyword
     count = count + 1
     print(count)

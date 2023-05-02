@@ -31,12 +31,13 @@ def weighted_cosine_similarity(k_lst1, k_lst2, model, threshold):
         return 0
 
     score = 0
-    normalization = 0
+    # normalization = 0
     for sim, k1_score, k2_score in sim_scores:
         score += sim * k1_score * k2_score
-        normalization += k1_score * k2_score
+        # normalization += k1_score * k2_score
 
-    return score/normalization
+    return score/len(sim_scores)
+    # return score/normalization
 
 
 def word2vec_clustering(keyword_num, threshold):

@@ -24,35 +24,45 @@ def weighted_cosine_similarity(k_lst1, k_lst2, model, threshold):
     for k1 in k_lst1:
         for k2 in k_lst2:
             sim = keyword_similarity(k1[0], k2[0], model)
+            # print(threshold)
             if sim >= threshold:
                 sim_scores.append((sim, k1[1], k2[1]))
 
     if not sim_scores:
         return 0
 
+
     score = 0
     # normalization = 0
     for sim, k1_score, k2_score in sim_scores:
         score += sim * k1_score * k2_score
-        # normalization += k1_score * k2_score
+    #     normalization += k1_score * k2_score
+    # return score/normalization
+
+    # weighted_sim_score = sum(sim * (k1_score * k2_score) for sim, k1_score, k2_score in sim_scores)
+    # normalization_factor = sum(k1_score * k2_score for _, k1_score, k2_score in sim_scores)
+    # weighted_sim_score /= normalization_factor
+
+    # return weighted_sim_score
 
     return score/len(sim_scores)
-    # return score/normalization
 
 
 def word2vec_clustering(keyword_num, threshold):
+    print
     # load Word2Vec model & get the keywords & scores
     word2vec_model = KeyedVectors.load_word2vec_format("GoogleNews-vectors-negative300.bin.gz", binary=True, limit=500000)
     with open("keywords.json", "r") as file:
         keyword_data = json.load(file)
 
 
-    keyword_data = {}
-    for channel, keywords in keyword_data.items():
-        keyword_data[channel] = keywords[:keyword_num]
+    # keyword_data = {}
+    # for channel, keywords in keyword_data.items():
+    #     keyword_data[channel] = keywords[:keyword_num]
+    keyword_data = {youtuber: keywords[:keyword_num] for youtuber, keywords in keyword_data.items()}
     data = {
-        "YouTuber": [], #YouTuber
-        "Keywords": [], #keywords & their weights
+        "youtuber": [], #YouTuber
+        "keywords": [], #keywords & their weights
     }
     for channel, keywords in keyword_data.items():
         data["youtuber"].append(channel)
@@ -78,4 +88,4 @@ def word2vec_clustering(keyword_num, threshold):
     nx.draw(word2vec_graph, positions, node_color='lightblue', with_labels=True, node_size=1500, font_size=12)
     labels = nx.get_edge_attributes(word2vec_graph, 'weight')
     nx.draw_networkx_edge_labels(word2vec_graph, positions, edge_labels=labels)
-    nx.write_gexf(word2vec_graph, "word2vec_graphs/graph_"+keyword_num+"_"+threshold+".gexf")
+    nx.write_gexf(word2vec_graph, "word2vec_graphs/graph_"+str(keyword_num)+"_"+str(threshold)+".gexf")

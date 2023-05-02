@@ -9,7 +9,7 @@ def read_csv_data(file):
             
     return youtube_list
 
-with open("yt_anskey/tinylist.csv", "r") as file:
+with open("yt_anskey/youtubers_tagged.csv", "r") as file:
     youtuberList = read_csv_data(file)
 
 for x in youtuberList:

@@ -15,7 +15,7 @@ kw_model = KeyBERT()
 
 kw_model_multi = KeyBERT('paraphrase-multilingual-MiniLM-L12-v2')
 
-f = open('rawData.json', "r")
+f = open('transcript_raw.json', "r")
 keywordfile = open("keywords.json", "a")
 count = 0
 data = json.load(f)
@@ -27,7 +27,7 @@ for youtuber in data:
     if(data[youtuber]["corpus"] == ""):
             continue
     corpus = clean(data[youtuber]["corpus"])
-    keyword = kw_model.extract_keywords(corpus, top_n=10)
+    keyword = kw_model.extract_keywords(corpus, top_n=20)
     keywords[data[youtuber]["name"]] = keyword
     count = count + 1
     print(count)

@@ -12,5 +12,3 @@ def read_csv_data(file):
 with open("yt_anskey/youtubers_tagged.csv", "r") as file:
     youtuberList = read_csv_data(file)
 
-for x in youtuberList:
-   print(x)

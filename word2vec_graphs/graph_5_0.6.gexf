@@ -1,0 +1,546 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-05-02">
+    <creator>NetworkX 3.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="ChrisFix" label="ChrisFix" />
+      <node id="TopGear" label="TopGear" />
+      <node id="carwow" label="carwow" />
+      <node id="Donut Media" label="Donut Media" />
+      <node id="MotorTrend Channel" label="MotorTrend Channel" />
+      <node id="Scotty Kilmer" label="Scotty Kilmer" />
+      <node id="Hoonigan" label="Hoonigan" />
+      <node id="Jay Leno's Garage" label="Jay Leno's Garage" />
+      <node id="TheStradman" label="TheStradman" />
+      <node id="Blippi Toys" label="Blippi Toys" />
+      <node id="Kara and Nate" label="Kara and Nate" />
+      <node id="Mighty Car Mods" label="Mighty Car Mods" />
+      <node id="1320video" label="1320video" />
+      <node id="Ray William Johnson" label="Ray William Johnson" />
+      <node id="Eddie Woo" label="Eddie Woo" />
+      <node id="SSSniperWolf" label="SSSniperWolf" />
+      <node id="Adam LZ" label="Adam LZ" />
+      <node id="Engineering Explained" label="Engineering Explained" />
+      <node id="DailyDrivenExotics" label="DailyDrivenExotics" />
+      <node id="Michael Reeves" label="Michael Reeves" />
+      <node id="CollegeHumor" label="CollegeHumor" />
+      <node id="The Detail Geek" label="The Detail Geek" />
+      <node id="Animal HT" label="Animal HT" />
+      <node id="Smosh" label="Smosh" />
+      <node id="JennaMarbles" label="JennaMarbles" />
+      <node id="D Billions" label="D Billions" />
+      <node id="jacksepticeye" label="jacksepticeye" />
+      <node id="Alan Chikin Chow" label="Alan Chikin Chow" />
+      <node id="The Late Late Show with James Corden" label="The Late Late Show with James Corden" />
+      <node id="TooBizz" label="TooBizz" />
+      <node id="rusplaying" label="rusplaying" />
+      <node id="MineCZ" label="MineCZ" />
+      <node id="Pea Pea" label="Pea Pea" />
+      <node id="Pencilmation Live" label="Pencilmation Live" />
+      <node id="Rosanna Pansino" label="Rosanna Pansino" />
+      <node id="Alan Walker" label="Alan Walker" />
+      <node id="Lil Durk" label="Lil Durk" />
+      <node id="Video Game News" label="Video Game News" />
+      <node id="i'm cyborg but that's ok" label="i'm cyborg but that's ok" />
+      <node id="Life of Sammie &amp; Summer" label="Life of Sammie &amp; Summer" />
+      <node id="Jimmy Kimmel Live" label="Jimmy Kimmel Live" />
+      <node id="Roman Atwood Vlogs" label="Roman Atwood Vlogs" />
+      <node id="TheOdd1sOut" label="TheOdd1sOut" />
+      <node id="ZHC" label="ZHC" />
+      <node id="Topper Guild" label="Topper Guild" />
+      <node id="Master Wong" label="Master Wong" />
+      <node id="Amyy Woahh" label="Amyy Woahh" />
+      <node id="The ACE Family" label="The ACE Family" />
+      <node id="Comedy Central" label="Comedy Central" />
+      <node id="Adam W" label="Adam W" />
+      <node id="mrnigelng" label="mrnigelng" />
+      <node id="FaZe Rug" label="FaZe Rug" />
+      <node id="Arnold Schwarzenegger" label="Arnold Schwarzenegger" />
+      <node id="Miranda Sings" label="Miranda Sings" />
+      <node id="Power Rangers Official" label="Power Rangers Official" />
+      <node id="LooLoo Kids - Nursery Rhymes and Children's Songs" label="LooLoo Kids - Nursery Rhymes and Children's Songs" />
+      <node id="Harry Mack" label="Harry Mack" />
+      <node id="Harry Mack Clips" label="Harry Mack Clips" />
+      <node id="Crash Adams" label="Crash Adams" />
+      <node id="MattyBRaps" label="MattyBRaps" />
+      <node id="Dr. Dre" label="Dr. Dre" />
+      <node id="Ne-Yo" label="Ne-Yo" />
+      <node id="gatewaychurchtv" label="gatewaychurchtv" />
+      <node id="Sam Chui" label="Sam Chui" />
+      <node id="Jesse" label="Jesse" />
+      <node id="Vsauce" label="Vsauce" />
+      <node id="Pinkfong Baby Shark - Kids' Songs &amp; Stories" label="Pinkfong Baby Shark - Kids' Songs &amp; Stories" />
+      <node id="Toys and Colors" label="Toys and Colors" />
+      <node id="TED-Ed" label="TED-Ed" />
+      <node id="CrashCourse" label="CrashCourse" />
+      <node id="Veritasium" label="Veritasium" />
+      <node id="How It Should Have Ended" label="How It Should Have Ended" />
+      <node id="The Infographics Show" label="The Infographics Show" />
+      <node id="TKOR" label="TKOR" />
+      <node id="Vox" label="Vox" />
+      <node id="Khan Academy" label="Khan Academy" />
+      <node id="NBC News" label="NBC News" />
+      <node id="Donald J Trump" label="Donald J Trump" />
+      <node id="Gabe Poirot" label="Gabe Poirot" />
+      <node id="SciShow" label="SciShow" />
+      <node id="Dr Ryan" label="Dr Ryan" />
+      <node id="The School of Life" label="The School of Life" />
+      <node id="Abdul Bari" label="Abdul Bari" />
+      <node id="MrBeast" label="MrBeast" />
+      <node id="Like Nastya" label="Like Nastya" />
+      <node id="Vlad and Niki" label="Vlad and Niki" />
+      <node id="Pencilmation" label="Pencilmation" />
+      <node id="National Geographic" label="National Geographic" />
+      <node id="Preston" label="Preston" />
+      <node id="Beast Reacts" label="Beast Reacts" />
+      <node id="Wonders of the World" label="Wonders of the World" />
+      <node id="The Dodo" label="The Dodo" />
+      <node id="Animal Channel" label="Animal Channel" />
+      <node id="AaronsAnimals" label="AaronsAnimals" />
+      <node id="Jackson Galaxy" label="Jackson Galaxy" />
+      <node id="Lucas and Marcus" label="Lucas and Marcus" />
+      <node id="America's Got Talent" label="America's Got Talent" />
+      <node id="ONE Media" label="ONE Media" />
+      <node id="Wolfoo Family - Official Channel" label="Wolfoo Family - Official Channel" />
+      <node id="Wolfoo Family" label="Wolfoo Family" />
+      <node id="Rooster Teeth" label="Rooster Teeth" />
+      <node id="TimTheTatman" label="TimTheTatman" />
+      <node id="Meg DeAngelis" label="Meg DeAngelis" />
+      <node id="Austin Mahone" label="Austin Mahone" />
+      <node id="Bounce Patrol - Kids Songs" label="Bounce Patrol - Kids Songs" />
+      <node id="Jason Vlogs" label="Jason Vlogs" />
+      <node id="LeoNata Family" label="LeoNata Family" />
+      <node id="Google" label="Google" />
+      <node id="Brent Rivera" label="Brent Rivera" />
+      <node id="How Ridiculous" label="How Ridiculous" />
+      <node id="Logan Paul" label="Logan Paul" />
+      <node id="Jack Payne" label="Jack Payne" />
+      <node id="Andymation" label="Andymation" />
+      <node id="Red Bull" label="Red Bull" />
+      <node id="Jaiden Animations" label="Jaiden Animations" />
+      <node id="Brave Wilderness" label="Brave Wilderness" />
+      <node id="sWooZie" label="sWooZie" />
+      <node id="PewDiePie" label="PewDiePie" />
+      <node id="Markiplier" label="Markiplier" />
+      <node id="DramaAlert" label="DramaAlert" />
+      <node id="Dream" label="Dream" />
+      <node id="MrBeast Gaming" label="MrBeast Gaming" />
+      <node id="BriannaPlayz" label="BriannaPlayz" />
+      <node id="Tipsy Bartender" label="Tipsy Bartender" />
+      <node id="DanTDM" label="DanTDM" />
+      <node id="SwaggerSouls" label="SwaggerSouls" />
+      <node id="Jelly" label="Jelly" />
+      <node id="SSundee" label="SSundee" />
+      <node id="FGTeeV" label="FGTeeV" />
+      <node id="Ali-A" label="Ali-A" />
+      <node id="The Game Theorists" label="The Game Theorists" />
+      <node id="Troom Troom" label="Troom Troom" />
+      <node id="BuzzFeedVideo" label="BuzzFeedVideo" />
+      <node id="Animals Home" label="Animals Home" />
+      <node id="Vogue" label="Vogue" />
+      <node id="Blossom" label="Blossom" />
+      <node id="Yoga With Adriene" label="Yoga With Adriene" />
+      <node id="Alexa Rivera" label="Alexa Rivera" />
+      <node id="Hyram" label="Hyram" />
+      <node id="MyLifeAsEva" label="MyLifeAsEva" />
+      <node id="Niki and Gabi" label="Niki and Gabi" />
+      <node id="Howcast" label="Howcast" />
+      <node id="Karina Garcia" label="Karina Garcia" />
+      <node id="LaurDIY" label="LaurDIY" />
+      <node id="Tati" label="Tati" />
+      <node id="Dax" label="Dax" />
+      <node id="BillionSurpriseToys - English Kids Songs &amp; Cartoon" label="BillionSurpriseToys - English Kids Songs &amp; Cartoon" />
+      <node id="truly" label="truly" />
+      <node id="YG" label="YG" />
+      <node id="FIFTY FIFTY Official" label="FIFTY FIFTY Official" />
+      <node id="Dr. John Campbell" label="Dr. John Campbell" />
+      <node id="ABC News" label="ABC News" />
+      <node id="BBC News" label="BBC News" />
+      <node id="Peter Schiff" label="Peter Schiff" />
+      <node id="Fox News" label="Fox News" />
+      <node id="The Royalty Family" label="The Royalty Family" />
+      <node id="Insider Business" label="Insider Business" />
+      <node id="GaryVee" label="GaryVee" />
+      <node id="Philip DeFranco" label="Philip DeFranco" />
+      <node id="OfflineTV" label="OfflineTV" />
+      <node id="The Young Turks" label="The Young Turks" />
+      <node id="TEDx Talks" label="TEDx Talks" />
+      <node id="T.D. Jakes" label="T.D. Jakes" />
+      <node id="Google For Nonprofits" label="Google For Nonprofits" />
+      <node id="Transformation Church" label="Transformation Church" />
+      <node id="The Daily Reminder" label="The Daily Reminder" />
+      <node id="Pastor Greg Laurie" label="Pastor Greg Laurie" />
+      <node id="Invisible People" label="Invisible People" />
+      <node id="In Touch Ministries" label="In Touch Ministries" />
+      <node id="Joyce Meyer Ministries" label="Joyce Meyer Ministries" />
+      <node id="David Diga Hernandez" label="David Diga Hernandez" />
+      <node id="Dan Rhodes" label="Dan Rhodes" />
+      <node id="NichLmao" label="NichLmao" />
+      <node id="Beast Phyilanthropy" label="Beast Phyilanthropy" />
+      <node id="MrBeast 2" label="MrBeast 2" />
+      <node id="Insider Food" label="Insider Food" />
+      <node id="Stokes Twins" label="Stokes Twins" />
+      <node id="Dhar Mann" label="Dhar Mann" />
+      <node id="Unspeakable" label="Unspeakable" />
+      <node id="Casey Neistat" label="Casey Neistat" />
+      <node id="PowerfulJRE" label="PowerfulJRE" />
+      <node id="Animal Planet" label="Animal Planet" />
+      <node id="Fish4Ever" label="Fish4Ever" />
+      <node id="William Li" label="William Li" />
+      <node id="River Monsters" label="River Monsters" />
+      <node id="BlacktipH" label="BlacktipH" />
+      <node id="KickinTheirBASSTV" label="KickinTheirBASSTV" />
+      <node id="DALLMYD" label="DALLMYD" />
+      <node id="Fluff Planet" label="Fluff Planet" />
+      <node id="Mark Rober" label="Mark Rober" />
+      <node id="TED" label="TED" />
+      <node id="Unbox Therapy" label="Unbox Therapy" />
+      <node id="ICC" label="ICC" />
+      <node id="Apple" label="Apple" />
+      <node id="Marques Brownlee" label="Marques Brownlee" />
+      <node id="Mrwhosetheboss" label="Mrwhosetheboss" />
+      <node id="Linus Tech Tips" label="Linus Tech Tips" />
+      <node id="EverythingApplePro E A P" label="EverythingApplePro E A P" />
+      <node id="Joe Scott" label="Joe Scott" />
+      <node id="Hacksmith Industries" label="Hacksmith Industries" />
+      <node id="CrazyRussianHacker" label="CrazyRussianHacker" />
+      <node id="NASA" label="NASA" />
+      <node id="SmarterEveryDay" label="SmarterEveryDay" />
+      <node id="Primitive Technology..." label="Primitive Technology..." />
+      <node id="Noel Deyzel" label="Noel Deyzel" />
+      <node id="Mark Wiens" label="Mark Wiens" />
+      <node id="Dude Perfect" label="Dude Perfect" />
+      <node id="STREETBEEFS" label="STREETBEEFS" />
+      <node id="GYM JONG KOOK" label="GYM JONG KOOK" />
+      <node id="F2Freestylers - Ultimate Soccer Skills Channel" label="F2Freestylers - Ultimate Soccer Skills Channel" />
+      <node id="DemolitionRanch" label="DemolitionRanch" />
+      <node id="NFL" label="NFL" />
+      <node id="Larry Wheels" label="Larry Wheels" />
+      <node id="Strictly Dumpling" label="Strictly Dumpling" />
+      <node id="Nas Daily" label="Nas Daily" />
+      <node id="Best Ever Food Review" label="Best Ever Food Review" />
+      <node id="Peter Santenello" label="Peter Santenello" />
+      <node id="The Food Ranger" label="The Food Ranger" />
+      <node id="OmarGoshTV" label="OmarGoshTV" />
+      <node id="bald and bankrupt" label="bald and bankrupt" />
+      <node id="Johnny Harris" label="Johnny Harris" />
+      <node id="Drew Binsky" label="Drew Binsky" />
+      <node id="Zack D. Films" label="Zack D. Films" />
+      <node id="DancingBacons" label="DancingBacons" />
+    </nodes>
+    <edges>
+      <edge source="Hoonigan" target="Jay Leno's Garage" id="0" weight="0.5605334923726116" />
+      <edge source="TheStradman" target="Blippi Toys" id="1" weight="0.9913008212912329" />
+      <edge source="TheStradman" target="Kara and Nate" id="2" weight="0.540551565162116" />
+      <edge source="Blippi Toys" target="Kara and Nate" id="3" weight="0.6087236312551212" />
+      <edge source="Kara and Nate" target="ONE Media" id="4" weight="0.5134695115087304" />
+      <edge source="Kara and Nate" target="Nas Daily" id="5" weight="0.4613807366847243" />
+      <edge source="Mighty Car Mods" target="1320video" id="6" weight="0.3798926879415549" />
+      <edge source="Mighty Car Mods" target="Ray William Johnson" id="7" weight="0.41556571551690413" />
+      <edge source="Mighty Car Mods" target="Eddie Woo" id="8" weight="0.45684992595804536" />
+      <edge source="Mighty Car Mods" target="SSSniperWolf" id="9" weight="0.45713662186388665" />
+      <edge source="1320video" target="Michael Reeves" id="10" weight="0.5765027081815663" />
+      <edge source="1320video" target="CollegeHumor" id="11" weight="0.5678939774106788" />
+      <edge source="1320video" target="Ray William Johnson" id="12" weight="0.3542904055554263" />
+      <edge source="1320video" target="Eddie Woo" id="13" weight="0.44977090109538614" />
+      <edge source="1320video" target="SSSniperWolf" id="14" weight="0.38973166723568625" />
+      <edge source="Michael Reeves" target="CollegeHumor" id="15" weight="0.652008684014228" />
+      <edge source="The Detail Geek" target="Animal HT" id="16" weight="0.32167675221185443" />
+      <edge source="Animal HT" target="The Late Late Show with James Corden" id="17" weight="0.45999469604641263" />
+      <edge source="Animal HT" target="Rosanna Pansino" id="18" weight="0.4041259618373954" />
+      <edge source="Animal HT" target="Alan Walker" id="19" weight="0.340470005350605" />
+      <edge source="JennaMarbles" target="D Billions" id="20" weight="0.706456472715379" />
+      <edge source="JennaMarbles" target="jacksepticeye" id="21" weight="0.5720598735920149" />
+      <edge source="D Billions" target="Lucas and Marcus" id="22" weight="0.3683072986637542" />
+      <edge source="D Billions" target="The Late Late Show with James Corden" id="23" weight="0.47550324690649637" />
+      <edge source="D Billions" target="Rosanna Pansino" id="24" weight="0.4177509190095171" />
+      <edge source="D Billions" target="Alan Walker" id="25" weight="0.3519488255189578" />
+      <edge source="D Billions" target="How Ridiculous" id="26" weight="0.5659781363830034" />
+      <edge source="jacksepticeye" target="FaZe Rug" id="27" weight="0.5089874089409298" />
+      <edge source="jacksepticeye" target="BriannaPlayz" id="28" weight="0.7900862660629497" />
+      <edge source="jacksepticeye" target="Tipsy Bartender" id="29" weight="0.7190260335589694" />
+      <edge source="Alan Chikin Chow" target="The Late Late Show with James Corden" id="30" weight="0.5699392441080778" />
+      <edge source="Alan Chikin Chow" target="TooBizz" id="31" weight="0.29650726802679833" />
+      <edge source="Alan Chikin Chow" target="rusplaying" id="32" weight="0.11983627077642947" />
+      <edge source="Alan Chikin Chow" target="MineCZ" id="33" weight="0.2739233811141332" />
+      <edge source="Alan Chikin Chow" target="Pea Pea" id="34" weight="0.19358807859085234" />
+      <edge source="Alan Chikin Chow" target="Pencilmation Live" id="35" weight="0.15250373819253538" />
+      <edge source="Alan Chikin Chow" target="Rosanna Pansino" id="36" weight="0.5007171760754725" />
+      <edge source="Alan Chikin Chow" target="Alan Walker" id="37" weight="0.42184664118696286" />
+      <edge source="Alan Chikin Chow" target="Lil Durk" id="38" weight="0.3148410507603272" />
+      <edge source="Alan Chikin Chow" target="Video Game News" id="39" weight="0.3710090942257746" />
+      <edge source="Alan Chikin Chow" target="i'm cyborg but that's ok" id="40" weight="0.2560896106369734" />
+      <edge source="Alan Chikin Chow" target="Life of Sammie &amp; Summer" id="41" weight="0.31200764797423636" />
+      <edge source="The Late Late Show with James Corden" target="Miranda Sings" id="42" weight="0.3772591681011378" />
+      <edge source="The Late Late Show with James Corden" target="Pinkfong Baby Shark - Kids' Songs &amp; Stories" id="43" weight="0.5590001769835544" />
+      <edge source="The Late Late Show with James Corden" target="Like Nastya" id="44" weight="0.5133053396279504" />
+      <edge source="The Late Late Show with James Corden" target="Vlad and Niki" id="45" weight="0.4814574226831357" />
+      <edge source="The Late Late Show with James Corden" target="Toys and Colors" id="46" weight="0.5095666711170375" />
+      <edge source="The Late Late Show with James Corden" target="Lucas and Marcus" id="47" weight="0.3744207279077362" />
+      <edge source="The Late Late Show with James Corden" target="America's Got Talent" id="48" weight="0.42177719571263483" />
+      <edge source="The Late Late Show with James Corden" target="ONE Media" id="49" weight="0.5130284012197347" />
+      <edge source="The Late Late Show with James Corden" target="Wolfoo Family - Official Channel" id="50" weight="0.36620743204530637" />
+      <edge source="The Late Late Show with James Corden" target="TooBizz" id="51" weight="0.6154956122595738" />
+      <edge source="The Late Late Show with James Corden" target="Pencilmation" id="52" weight="0.6166033658924369" />
+      <edge source="The Late Late Show with James Corden" target="Wolfoo Family" id="53" weight="0.5587232385753387" />
+      <edge source="The Late Late Show with James Corden" target="rusplaying" id="54" weight="0.6171572427088684" />
+      <edge source="The Late Late Show with James Corden" target="Rooster Teeth" id="55" weight="0.46359489535321774" />
+      <edge source="The Late Late Show with James Corden" target="Power Rangers Official" id="56" weight="0.3947082860222884" />
+      <edge source="The Late Late Show with James Corden" target="MineCZ" id="57" weight="0.6247730489348025" />
+      <edge source="The Late Late Show with James Corden" target="Pea Pea" id="58" weight="0.677114408087585" />
+      <edge source="The Late Late Show with James Corden" target="Pencilmation Live" id="59" weight="0.6550978046344306" />
+      <edge source="The Late Late Show with James Corden" target="TimTheTatman" id="60" weight="0.49945841921716144" />
+      <edge source="The Late Late Show with James Corden" target="Meg DeAngelis" id="61" weight="0.4969659735432195" />
+      <edge source="The Late Late Show with James Corden" target="Rosanna Pansino" id="62" weight="0.4278427941136426" />
+      <edge source="The Late Late Show with James Corden" target="LooLoo Kids - Nursery Rhymes and Children's Songs" id="63" weight="0.46538378735006575" />
+      <edge source="The Late Late Show with James Corden" target="Crash Adams" id="64" weight="0.587589738581403" />
+      <edge source="The Late Late Show with James Corden" target="Alan Walker" id="65" weight="0.4694611746457304" />
+      <edge source="The Late Late Show with James Corden" target="Lil Durk" id="66" weight="0.7298711748526915" />
+      <edge source="The Late Late Show with James Corden" target="MattyBRaps" id="67" weight="0.7183231831718897" />
+      <edge source="The Late Late Show with James Corden" target="Austin Mahone" id="68" weight="0.2955591290721003" />
+      <edge source="The Late Late Show with James Corden" target="Ne-Yo" id="69" weight="0.4005398312592683" />
+      <edge source="The Late Late Show with James Corden" target="Bounce Patrol - Kids Songs" id="70" weight="0.44988644414653667" />
+      <edge source="The Late Late Show with James Corden" target="Video Game News" id="71" weight="0.5871094254174561" />
+      <edge source="The Late Late Show with James Corden" target="i'm cyborg but that's ok" id="72" weight="0.6621597340439329" />
+      <edge source="The Late Late Show with James Corden" target="gatewaychurchtv" id="73" weight="0.8034248182031433" />
+      <edge source="The Late Late Show with James Corden" target="Jason Vlogs" id="74" weight="0.31349427810026437" />
+      <edge source="The Late Late Show with James Corden" target="LeoNata Family" id="75" weight="0.5662005755971646" />
+      <edge source="The Late Late Show with James Corden" target="National Geographic" id="76" weight="0.30906326356881186" />
+      <edge source="The Late Late Show with James Corden" target="Life of Sammie &amp; Summer" id="77" weight="0.6031718530939715" />
+      <edge source="The Late Late Show with James Corden" target="Jackson Galaxy" id="78" weight="0.37497460472416777" />
+      <edge source="The Late Late Show with James Corden" target="Google" id="79" weight="0.6218651956485368" />
+      <edge source="TooBizz" target="Vlad and Niki" id="80" weight="0.6427232483063933" />
+      <edge source="TooBizz" target="America's Got Talent" id="81" weight="0.5362787860393108" />
+      <edge source="TooBizz" target="Pencilmation" id="82" weight="0.4977247734637167" />
+      <edge source="TooBizz" target="rusplaying" id="83" weight="0.6657259079616897" />
+      <edge source="TooBizz" target="MineCZ" id="84" weight="0.454489509426439" />
+      <edge source="TooBizz" target="Pea Pea" id="85" weight="0.5166151203080519" />
+      <edge source="TooBizz" target="Pencilmation Live" id="86" weight="0.490392555035197" />
+      <edge source="TooBizz" target="Rosanna Pansino" id="87" weight="0.5407404877685799" />
+      <edge source="TooBizz" target="Alan Walker" id="88" weight="0.455565675431499" />
+      <edge source="TooBizz" target="Lil Durk" id="89" weight="0.5331768008592308" />
+      <edge source="TooBizz" target="Bounce Patrol - Kids Songs" id="90" weight="0.652656724649208" />
+      <edge source="TooBizz" target="Video Game News" id="91" weight="0.5359784144707747" />
+      <edge source="TooBizz" target="i'm cyborg but that's ok" id="92" weight="0.4336824534252029" />
+      <edge source="TooBizz" target="Life of Sammie &amp; Summer" id="93" weight="0.9023710977418824" />
+      <edge source="TooBizz" target="Red Bull" id="94" weight="0.30673641770213156" />
+      <edge source="rusplaying" target="Pencilmation" id="95" weight="0.8364997206420494" />
+      <edge source="rusplaying" target="MineCZ" id="96" weight="0.7044982660713915" />
+      <edge source="rusplaying" target="Pea Pea" id="97" weight="0.696836118562454" />
+      <edge source="rusplaying" target="Pencilmation Live" id="98" weight="0.6028282910262266" />
+      <edge source="rusplaying" target="Rosanna Pansino" id="99" weight="0.5422003046084501" />
+      <edge source="rusplaying" target="Alan Walker" id="100" weight="0.4567955490209653" />
+      <edge source="rusplaying" target="Lil Durk" id="101" weight="0.21548854402348908" />
+      <edge source="rusplaying" target="Video Game News" id="102" weight="0.5751894351199475" />
+      <edge source="rusplaying" target="i'm cyborg but that's ok" id="103" weight="0.17527694435790944" />
+      <edge source="rusplaying" target="Life of Sammie &amp; Summer" id="104" weight="0.10677463060136885" />
+      <edge source="MineCZ" target="Vlad and Niki" id="105" weight="0.7043074962464703" />
+      <edge source="MineCZ" target="America's Got Talent" id="106" weight="0.5838886579085588" />
+      <edge source="MineCZ" target="Pencilmation" id="107" weight="0.5492627369355171" />
+      <edge source="MineCZ" target="Pea Pea" id="108" weight="0.5483761261099733" />
+      <edge source="MineCZ" target="Pencilmation Live" id="109" weight="0.5244610175996447" />
+      <edge source="MineCZ" target="Rosanna Pansino" id="110" weight="0.5488911317911884" />
+      <edge source="MineCZ" target="Alan Walker" id="111" weight="0.46243246963935286" />
+      <edge source="MineCZ" target="Lil Durk" id="112" weight="0.49256665104673747" />
+      <edge source="MineCZ" target="Bounce Patrol - Kids Songs" id="113" weight="0.7225358768511777" />
+      <edge source="MineCZ" target="Video Game News" id="114" weight="0.5535935689024306" />
+      <edge source="MineCZ" target="i'm cyborg but that's ok" id="115" weight="0.4006504284453743" />
+      <edge source="MineCZ" target="Life of Sammie &amp; Summer" id="116" weight="0.9482309363386893" />
+      <edge source="MineCZ" target="Red Bull" id="117" weight="0.37937658475049085" />
+      <edge source="Pea Pea" target="Vlad and Niki" id="118" weight="0.7205104424660256" />
+      <edge source="Pea Pea" target="America's Got Talent" id="119" weight="0.6002054151573284" />
+      <edge source="Pea Pea" target="Pencilmation" id="120" weight="0.6611761961142314" />
+      <edge source="Pea Pea" target="Pencilmation Live" id="121" weight="0.59412977200314" />
+      <edge source="Pea Pea" target="Rosanna Pansino" id="122" weight="0.5948753622470991" />
+      <edge source="Pea Pea" target="Alan Walker" id="123" weight="0.5011734877075433" />
+      <edge source="Pea Pea" target="Lil Durk" id="124" weight="0.34810840595727754" />
+      <edge source="Pea Pea" target="Bounce Patrol - Kids Songs" id="125" weight="0.7335482045371411" />
+      <edge source="Pea Pea" target="Video Game News" id="126" weight="0.5956107410256898" />
+      <edge source="Pea Pea" target="i'm cyborg but that's ok" id="127" weight="0.2831490554543975" />
+      <edge source="Pea Pea" target="Life of Sammie &amp; Summer" id="128" weight="0.8891591168428824" />
+      <edge source="Pea Pea" target="Red Bull" id="129" weight="0.35506272524052823" />
+      <edge source="Pencilmation Live" target="Vlad and Niki" id="130" weight="0.6010670894598321" />
+      <edge source="Pencilmation Live" target="America's Got Talent" id="131" weight="0.5973827218198509" />
+      <edge source="Pencilmation Live" target="Pencilmation" id="132" weight="0.6548160211543959" />
+      <edge source="Pencilmation Live" target="Rosanna Pansino" id="133" weight="0.5755327891188193" />
+      <edge source="Pencilmation Live" target="Alan Walker" id="134" weight="0.48487766264711407" />
+      <edge source="Pencilmation Live" target="Lil Durk" id="135" weight="0.27423090094783376" />
+      <edge source="Pencilmation Live" target="Bounce Patrol - Kids Songs" id="136" weight="0.7350539530121751" />
+      <edge source="Pencilmation Live" target="Video Game News" id="137" weight="0.5107928766215428" />
+      <edge source="Pencilmation Live" target="i'm cyborg but that's ok" id="138" weight="0.22305758565714484" />
+      <edge source="Pencilmation Live" target="Life of Sammie &amp; Summer" id="139" weight="0.7428185221334569" />
+      <edge source="Pencilmation Live" target="Red Bull" id="140" weight="0.3722431796876506" />
+      <edge source="Rosanna Pansino" target="Miranda Sings" id="141" weight="0.2263097111139428" />
+      <edge source="Rosanna Pansino" target="Pinkfong Baby Shark - Kids' Songs &amp; Stories" id="142" weight="0.49110671521299376" />
+      <edge source="Rosanna Pansino" target="Like Nastya" id="143" weight="0.377569586189842" />
+      <edge source="Rosanna Pansino" target="Vlad and Niki" id="144" weight="0.42298192935238527" />
+      <edge source="Rosanna Pansino" target="Toys and Colors" id="145" weight="0.44767716422685583" />
+      <edge source="Rosanna Pansino" target="Lucas and Marcus" id="146" weight="0.32894539458408095" />
+      <edge source="Rosanna Pansino" target="America's Got Talent" id="147" weight="0.3705501745203812" />
+      <edge source="Rosanna Pansino" target="ONE Media" id="148" weight="0.4507184493099187" />
+      <edge source="Rosanna Pansino" target="Wolfoo Family - Official Channel" id="149" weight="0.4072229571528067" />
+      <edge source="Rosanna Pansino" target="Pencilmation" id="150" weight="0.5417136989951601" />
+      <edge source="Rosanna Pansino" target="Wolfoo Family" id="151" weight="0.4908634124063488" />
+      <edge source="Rosanna Pansino" target="Rooster Teeth" id="152" weight="0.40728889832378073" />
+      <edge source="Rosanna Pansino" target="Power Rangers Official" id="153" weight="0.2531045861535985" />
+      <edge source="Rosanna Pansino" target="TimTheTatman" id="154" weight="0.4387966117843123" />
+      <edge source="Rosanna Pansino" target="Meg DeAngelis" id="155" weight="0.43660688652450697" />
+      <edge source="Rosanna Pansino" target="LooLoo Kids - Nursery Rhymes and Children's Songs" id="156" weight="0.29989356074467133" />
+      <edge source="Rosanna Pansino" target="Harry Mack" id="157" weight="0.5490127831945109" />
+      <edge source="Rosanna Pansino" target="Harry Mack Clips" id="158" weight="0.4403780800275049" />
+      <edge source="Rosanna Pansino" target="Crash Adams" id="159" weight="0.3453306071369711" />
+      <edge source="Rosanna Pansino" target="Alan Walker" id="160" weight="0.49524520633577973" />
+      <edge source="Rosanna Pansino" target="Lil Durk" id="161" weight="0.6412245469129775" />
+      <edge source="Rosanna Pansino" target="MattyBRaps" id="162" weight="0.4112449933410603" />
+      <edge source="Rosanna Pansino" target="Austin Mahone" id="163" weight="0.30192072735668973" />
+      <edge source="Rosanna Pansino" target="Ne-Yo" id="164" weight="0.37525660021504514" />
+      <edge source="Rosanna Pansino" target="Bounce Patrol - Kids Songs" id="165" weight="0.3952454093948518" />
+      <edge source="Rosanna Pansino" target="Video Game News" id="166" weight="0.5158019500874643" />
+      <edge source="Rosanna Pansino" target="i'm cyborg but that's ok" id="167" weight="0.5817370106882676" />
+      <edge source="Rosanna Pansino" target="gatewaychurchtv" id="168" weight="0.698099929627023" />
+      <edge source="Rosanna Pansino" target="Jason Vlogs" id="169" weight="0.27541877712217433" />
+      <edge source="Rosanna Pansino" target="LeoNata Family" id="170" weight="0.4974325881857646" />
+      <edge source="Rosanna Pansino" target="National Geographic" id="171" weight="0.27152593221585386" />
+      <edge source="Rosanna Pansino" target="Life of Sammie &amp; Summer" id="172" weight="0.529913512872876" />
+      <edge source="Rosanna Pansino" target="Jackson Galaxy" id="173" weight="0.32943200019737107" />
+      <edge source="Rosanna Pansino" target="Google" id="174" weight="0.5463364523214156" />
+      <edge source="Rosanna Pansino" target="Sam Chui" id="175" weight="0.4329777717064458" />
+      <edge source="Alan Walker" target="Miranda Sings" id="176" weight="0.45513427229019016" />
+      <edge source="Alan Walker" target="Pinkfong Baby Shark - Kids' Songs &amp; Stories" id="177" weight="0.4137499733896426" />
+      <edge source="Alan Walker" target="Like Nastya" id="178" weight="0.37992844967931755" />
+      <edge source="Alan Walker" target="Vlad and Niki" id="179" weight="0.3563558725478789" />
+      <edge source="Alan Walker" target="Toys and Colors" id="180" weight="0.37716123410301833" />
+      <edge source="Alan Walker" target="Lucas and Marcus" id="181" weight="0.2771315154930873" />
+      <edge source="Alan Walker" target="America's Got Talent" id="182" weight="0.3121829127928787" />
+      <edge source="Alan Walker" target="ONE Media" id="183" weight="0.3797234707477399" />
+      <edge source="Alan Walker" target="Wolfoo Family - Official Channel" id="184" weight="0.3960192958081692" />
+      <edge source="Alan Walker" target="Pencilmation" id="185" weight="0.45638559115780986" />
+      <edge source="Alan Walker" target="Wolfoo Family" id="186" weight="0.41354499445806486" />
+      <edge source="Alan Walker" target="Rooster Teeth" id="187" weight="0.3431347314611155" />
+      <edge source="Alan Walker" target="Power Rangers Official" id="188" weight="0.41198917789635975" />
+      <edge source="Alan Walker" target="TimTheTatman" id="189" weight="0.36967950310043124" />
+      <edge source="Alan Walker" target="Meg DeAngelis" id="190" weight="0.36783469271623165" />
+      <edge source="Alan Walker" target="LooLoo Kids - Nursery Rhymes and Children's Songs" id="191" weight="0.4019191442841197" />
+      <edge source="Alan Walker" target="Crash Adams" id="192" weight="0.3860772297226576" />
+      <edge source="Alan Walker" target="Lil Durk" id="193" weight="0.5402219741731003" />
+      <edge source="Alan Walker" target="MattyBRaps" id="194" weight="0.3824177956597578" />
+      <edge source="Alan Walker" target="Austin Mahone" id="195" weight="0.2389145725477199" />
+      <edge source="Alan Walker" target="Ne-Yo" id="196" weight="0.29987089543262657" />
+      <edge source="Alan Walker" target="Bounce Patrol - Kids Songs" id="197" weight="0.33298827434801803" />
+      <edge source="Alan Walker" target="Video Game News" id="198" weight="0.43455533494478193" />
+      <edge source="Alan Walker" target="i'm cyborg but that's ok" id="199" weight="0.49010462540234606" />
+      <edge source="Alan Walker" target="Jason Vlogs" id="200" weight="0.23203615054598728" />
+      <edge source="Alan Walker" target="LeoNata Family" id="201" weight="0.4190794256106635" />
+      <edge source="Alan Walker" target="National Geographic" id="202" weight="0.2287564876407437" />
+      <edge source="Alan Walker" target="Life of Sammie &amp; Summer" id="203" weight="0.4464441129762901" />
+      <edge source="Alan Walker" target="Jackson Galaxy" id="204" weight="0.2775414733562428" />
+      <edge source="Alan Walker" target="Google" id="205" weight="0.46028019085778665" />
+      <edge source="Lil Durk" target="Video Game News" id="206" weight="0.6671453393550578" />
+      <edge source="Lil Durk" target="i'm cyborg but that's ok" id="207" weight="0.4604981194604881" />
+      <edge source="Lil Durk" target="Life of Sammie &amp; Summer" id="208" weight="0.5610494498080272" />
+      <edge source="Video Game News" target="Vlad and Niki" id="209" weight="0.502355424228628" />
+      <edge source="Video Game News" target="America's Got Talent" id="210" weight="0.5030100558020447" />
+      <edge source="Video Game News" target="Pencilmation" id="211" weight="0.5536673227951276" />
+      <edge source="Video Game News" target="Bounce Patrol - Kids Songs" id="212" weight="0.6095903826295599" />
+      <edge source="Video Game News" target="i'm cyborg but that's ok" id="213" weight="0.5426515690413163" />
+      <edge source="Video Game News" target="Life of Sammie &amp; Summer" id="214" weight="0.7914805181388542" />
+      <edge source="Video Game News" target="Red Bull" id="215" weight="0.27790138596924197" />
+      <edge source="i'm cyborg but that's ok" target="Life of Sammie &amp; Summer" id="216" weight="0.4563538801641258" />
+      <edge source="Life of Sammie &amp; Summer" target="Pencilmation" id="217" weight="0.9752721475826538" />
+      <edge source="Jimmy Kimmel Live" target="Roman Atwood Vlogs" id="218" weight="0.3653160703368025" />
+      <edge source="Roman Atwood Vlogs" target="Jesse" id="219" weight="0.36027548985612917" />
+      <edge source="TheOdd1sOut" target="ZHC" id="220" weight="0.5372351265789396" />
+      <edge source="Topper Guild" target="Master Wong" id="221" weight="0.33060251350192527" />
+      <edge source="Master Wong" target="Lucas and Marcus" id="222" weight="0.423563849058334" />
+      <edge source="Amyy Woahh" target="The ACE Family" id="223" weight="0.5072249788441473" />
+      <edge source="mrnigelng" target="FaZe Rug" id="224" weight="0.6124874085890902" />
+      <edge source="mrnigelng" target="Arnold Schwarzenegger" id="225" weight="0.4740239944006242" />
+      <edge source="Miranda Sings" target="Power Rangers Official" id="226" weight="0.2879507525494672" />
+      <edge source="Miranda Sings" target="LooLoo Kids - Nursery Rhymes and Children's Songs" id="227" weight="0.37670071480797923" />
+      <edge source="Miranda Sings" target="Harry Mack" id="228" weight="0.39916283114279016" />
+      <edge source="Miranda Sings" target="Harry Mack Clips" id="229" weight="0.4043380089199394" />
+      <edge source="Miranda Sings" target="Crash Adams" id="230" weight="0.3949931027184467" />
+      <edge source="Miranda Sings" target="MattyBRaps" id="231" weight="0.4695637470409198" />
+      <edge source="Miranda Sings" target="Dr. Dre" id="232" weight="0.30839150348838473" />
+      <edge source="Miranda Sings" target="Ne-Yo" id="233" weight="0.4397455085960777" />
+      <edge source="Miranda Sings" target="gatewaychurchtv" id="234" weight="0.6064102599650169" />
+      <edge source="Miranda Sings" target="Sam Chui" id="235" weight="0.4096993968835187" />
+      <edge source="Power Rangers Official" target="Wolfoo Family - Official Channel" id="236" weight="0.6609856026901683" />
+      <edge source="Power Rangers Official" target="LooLoo Kids - Nursery Rhymes and Children's Songs" id="237" weight="0.5438635322118957" />
+      <edge source="Power Rangers Official" target="Crash Adams" id="238" weight="0.45955714876212106" />
+      <edge source="Power Rangers Official" target="MattyBRaps" id="239" weight="0.5598243500591544" />
+      <edge source="Power Rangers Official" target="Austin Mahone" id="240" weight="0.3450624007838999" />
+      <edge source="Power Rangers Official" target="Ne-Yo" id="241" weight="0.46784920398255037" />
+      <edge source="Power Rangers Official" target="gatewaychurchtv" id="242" weight="0.8447102979122681" />
+      <edge source="LooLoo Kids - Nursery Rhymes and Children's Songs" target="Wolfoo Family - Official Channel" id="243" weight="0.6590124153451733" />
+      <edge source="LooLoo Kids - Nursery Rhymes and Children's Songs" target="Crash Adams" id="244" weight="0.5793754452885832" />
+      <edge source="LooLoo Kids - Nursery Rhymes and Children's Songs" target="MattyBRaps" id="245" weight="0.7054099044336065" />
+      <edge source="LooLoo Kids - Nursery Rhymes and Children's Songs" target="Austin Mahone" id="246" weight="0.3190876247878835" />
+      <edge source="LooLoo Kids - Nursery Rhymes and Children's Songs" target="Ne-Yo" id="247" weight="0.43263157886386394" />
+      <edge source="LooLoo Kids - Nursery Rhymes and Children's Songs" target="gatewaychurchtv" id="248" weight="0.8864649307999061" />
+      <edge source="Harry Mack" target="Harry Mack Clips" id="249" weight="0.7130285493015902" />
+      <edge source="Harry Mack" target="Dr. Dre" id="250" weight="0.4069802973002323" />
+      <edge source="Harry Mack" target="Ne-Yo" id="251" weight="0.6911625074738067" />
+      <edge source="Harry Mack" target="Sam Chui" id="252" weight="0.6439380435392236" />
+      <edge source="Harry Mack Clips" target="Dr. Dre" id="253" weight="0.4515521069250042" />
+      <edge source="Crash Adams" target="Wolfoo Family - Official Channel" id="254" weight="0.4363429184485007" />
+      <edge source="Crash Adams" target="MattyBRaps" id="255" weight="0.6063577950625633" />
+      <edge source="Crash Adams" target="Austin Mahone" id="256" weight="0.30941500945882294" />
+      <edge source="Crash Adams" target="Ne-Yo" id="257" weight="0.3341464407202495" />
+      <edge source="Crash Adams" target="gatewaychurchtv" id="258" weight="0.8411916490734223" />
+      <edge source="Crash Adams" target="Sam Chui" id="259" weight="0.4875364626976815" />
+      <edge source="MattyBRaps" target="Wolfoo Family - Official Channel" id="260" weight="0.5515975284496502" />
+      <edge source="MattyBRaps" target="Austin Mahone" id="261" weight="0.39114317493582856" />
+      <edge source="MattyBRaps" target="Ne-Yo" id="262" weight="0.53032733390022" />
+      <edge source="MattyBRaps" target="gatewaychurchtv" id="263" weight="1.0" />
+      <edge source="Dr. Dre" target="YG" id="264" weight="0.36727471022845587" />
+      <edge source="Sam Chui" target="MrBeast" id="265" weight="0.3079605251668228" />
+      <edge source="Pinkfong Baby Shark - Kids' Songs &amp; Stories" target="Toys and Colors" id="266" weight="0.391066027241188" />
+      <edge source="Veritasium" target="How It Should Have Ended" id="267" weight="0.5203571942228316" />
+      <edge source="How It Should Have Ended" target="Brave Wilderness" id="268" weight="0.7396548114657101" />
+      <edge source="Khan Academy" target="NBC News" id="269" weight="0.46601036738946705" />
+      <edge source="Khan Academy" target="Donald J Trump" id="270" weight="0.37313829619500577" />
+      <edge source="Khan Academy" target="Gabe Poirot" id="271" weight="0.4180421783334444" />
+      <edge source="Vlad and Niki" target="Pencilmation" id="272" weight="0.7287030384398071" />
+      <edge source="Vlad and Niki" target="National Geographic" id="273" weight="0.20931843403110542" />
+      <edge source="Pencilmation" target="America's Got Talent" id="274" weight="0.6018487469931899" />
+      <edge source="Pencilmation" target="Bounce Patrol - Kids Songs" id="275" weight="0.7519674248718295" />
+      <edge source="Pencilmation" target="Red Bull" id="276" weight="0.41845960685534805" />
+      <edge source="National Geographic" target="Jelly" id="277" weight="0.31595507140386025" />
+      <edge source="Beast Reacts" target="Wonders of the World" id="278" weight="0.5581383043579284" />
+      <edge source="Beast Reacts" target="The Dodo" id="279" weight="0.4037383643792605" />
+      <edge source="Beast Reacts" target="Animal Channel" id="280" weight="0.42396887487353196" />
+      <edge source="Beast Reacts" target="AaronsAnimals" id="281" weight="0.3874283448642362" />
+      <edge source="Beast Reacts" target="Jackson Galaxy" id="282" weight="0.46456461609284244" />
+      <edge source="Wonders of the World" target="Animal Channel" id="283" weight="0.7251110177816654" />
+      <edge source="The Dodo" target="truly" id="284" weight="0.19902121986014093" />
+      <edge source="The Dodo" target="Animal Channel" id="285" weight="0.37195877841353925" />
+      <edge source="The Dodo" target="AaronsAnimals" id="286" weight="0.27822112250728653" />
+      <edge source="The Dodo" target="Jackson Galaxy" id="287" weight="0.33361443652712086" />
+      <edge source="Animal Channel" target="AaronsAnimals" id="288" weight="0.5125647547948025" />
+      <edge source="Animal Channel" target="Jackson Galaxy" id="289" weight="0.6146154551944614" />
+      <edge source="Austin Mahone" target="Dax" id="290" weight="0.1387576334667518" />
+      <edge source="Markiplier" target="DramaAlert" id="291" weight="0.48099696675528625" />
+      <edge source="Troom Troom" target="BuzzFeedVideo" id="292" weight="0.31068300817464106" />
+      <edge source="Troom Troom" target="Animals Home" id="293" weight="0.3277262626856393" />
+      <edge source="BuzzFeedVideo" target="FIFTY FIFTY Official" id="294" weight="0.4073751688820549" />
+      <edge source="Animals Home" target="William Li" id="295" weight="0.7272409001881719" />
+      <edge source="BillionSurpriseToys - English Kids Songs &amp; Cartoon" target="truly" id="296" weight="0.4274894569444863" />
+      <edge source="truly" target="The Royalty Family" id="297" weight="0.20281189226331572" />
+      <edge source="MrBeast 2" target="Insider Food" id="298" weight="0.5115744944089141" />
+      <edge source="William Li" target="Strictly Dumpling" id="299" weight="0.5955742529306801" />
+      <edge source="River Monsters" target="BlacktipH" id="300" weight="0.7483400412716378" />
+      <edge source="River Monsters" target="KickinTheirBASSTV" id="301" weight="0.5302291760663234" />
+      <edge source="River Monsters" target="DALLMYD" id="302" weight="0.6768174327577959" />
+      <edge source="BlacktipH" target="KickinTheirBASSTV" id="303" weight="0.37218048812017096" />
+      <edge source="BlacktipH" target="DALLMYD" id="304" weight="0.5540316671255863" />
+      <edge source="KickinTheirBASSTV" target="DALLMYD" id="305" weight="0.48494349955258753" />
+      <edge source="Unbox Therapy" target="ICC" id="306" weight="0.6056951181811451" />
+      <edge source="Marques Brownlee" target="Mrwhosetheboss" id="307" weight="0.9594019750838982" />
+      <edge source="Mrwhosetheboss" target="EverythingApplePro E A P" id="308" weight="0.8248968263619978" />
+      <edge source="Noel Deyzel" target="Mark Wiens" id="309" weight="0.5615249413173691" />
+    </edges>
+  </graph>
+</gexf>

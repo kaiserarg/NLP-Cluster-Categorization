@@ -14,7 +14,7 @@ jsonDict = {}
 
 for i in range(len(youtuberList)):
     try:
-        videos = scrapetube.get_channel(None, youtuberList[i][1], 1, 1, "popular")
+        videos = scrapetube.get_channel(None, youtuberList[i][1], 10, 1, "popular")
         corpus = ""
         for video in videos:
             transcriptList = transcriptAPI.get_transcript(video['videoId'])

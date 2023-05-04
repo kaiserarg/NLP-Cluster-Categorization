@@ -8,7 +8,7 @@ formatter = TextFormatter()
 
 youtubeURL = "https://www.youtube.com/@"
 
-f = open("transcript_raw.json", "a")
+f = open("transcript2_raw.json", "a")
 
 jsonDict = {}
 
